@@ -1,5 +1,6 @@
 import { contactEndpoint, submitConsultation } from './contact-model.js';
 import { trackSiteEvent } from './insights.js';
+import { installFormValidation } from './form-validation.js';
 
 export function installDraftGuard(form) {
   const fields = ['name', 'company', 'email', 'phone', 'service', 'message'];
@@ -22,6 +23,7 @@ export function installDraftGuard(form) {
 }
 
 export function enhanceContact(form) {
+  const validation = installFormValidation(form);
   const button = form.querySelector('[type="submit"]');
   const buttonLabel = button.querySelector('[data-submit-label]');
   const status = form.querySelector('[data-form-status]');
@@ -57,7 +59,7 @@ export function enhanceContact(form) {
     const name = form.elements.namedItem('name');
     name.setCustomValidity(name.value.trim() ? '' : form.dataset.invalidName);
     message.setCustomValidity(message.value.trim().length >= 10 ? '' : form.dataset.invalidMessage);
-    if (!form.reportValidity()) return;
+    if (!validation.validate()) return;
     const data = new FormData(form);
     const fields = Object.fromEntries(data.entries());
     fields.service = service.selectedOptions[0].textContent;

@@ -32,6 +32,7 @@ test('FormSubmit usa su contrato JSON, conserva la fuente sin query y no reenví
   const body=JSON.parse(request.body);
   assert.equal(result.accepted,true);
   assert.equal(body._subject,fields.subject);
+  assert.equal(body._replyto,fields.email);
   assert.equal(body._url,'http://127.0.0.1:4173/lmr/contacto/');
   assert.equal(body._honey,'');
   assert.equal(body._cc,undefined);
@@ -50,6 +51,15 @@ test('sin activación o con datos inválidos no realiza ninguna petición ni dev
   const options = { fetchImpl:async()=>{ requests++; } };
   await assert.rejects(submitConsultation('',fields,options),hasCode('UNAVAILABLE'));
   for (const patch of [{_gotcha:'bot'},{name:'  '},{email:'inválido'},{message:'   '},{message:'x'.repeat(1801)}]) await assert.rejects(submitConsultation(endpoint,{...fields,...patch},options),hasCode('INVALID'));
+  assert.equal(requests,0);
+});
+
+test('rechaza tipos, cabeceras y fuentes inválidas antes de contactar al proveedor', async () => {
+  let requests=0;
+  const options={fetchImpl:async()=>{requests++;}};
+  for(const patch of [{name:{}},{service:'x'.repeat(161)},{subject:'Consulta\r\nCC: otra casilla'},{subject:'x'.repeat(121)},{source:'no es una URL'},{source:'https://usuario:clave@example.invalid/'}]) {
+    await assert.rejects(submitConsultation('https://formsubmit.co/ajax/prueba@example.invalid',{...fields,...patch},options),hasCode('INVALID'));
+  }
   assert.equal(requests,0);
 });
 

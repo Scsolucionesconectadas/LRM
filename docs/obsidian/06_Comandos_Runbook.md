@@ -1,5 +1,16 @@
 # Comandos y operación
 
+## Revisión local con envío apagado — 02/11/2026
+
+Para revisar [[14_Funcionalidad_y_Calidad]] conservando la restricción de correo, generar una copia con endpoint vacío y luego servirla:
+
+```powershell
+node --input-type=module -e "import {build} from './scripts/build.mjs'; await build({contactEndpoint:''});"
+npm run preview
+```
+
+Abrir http://127.0.0.1:4174/lmr/. El comando dev habitual puede volver a usar el endpoint fuente; verificar configuración antes de enviar. build:demo ya fuerza endpoint vacío. No enviar pruebas o activaciones al revisar; los estados de esta etapa se verificaron mediante respuestas simuladas.
+
 Ejecutar desde C:/Proyectos/LRM.
 
 ```powershell

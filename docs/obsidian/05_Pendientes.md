@@ -1,5 +1,20 @@
 # Pendientes de LMR
 
+## Publicación de mejoras — 02/11/2026
+
+- [x] Autorización explícita para actualizar la demo pública recibida.
+- [ ] Commit/push y verificación de Cloudflare/URL en curso: [[15_Actualizacion_Demo_Publica]].
+- [ ] Mantener pendientes de material y correo real; no enviar pruebas/activaciones.
+
+## Revisión funcional hasta el punto 4 — 02/11/2026
+
+- [x] Correcciones y validación local de [[14_Funcionalidad_y_Calidad]]; 36 pruebas correctas.
+- [x] Formularios revisados con respuestas simuladas, sin contactar al proveedor; navegación y responsive de ambas webs comprobados.
+- [ ] Fotografías de equipo/proyectos, detalles de obras y permisos del cliente. Mantener fuera de lo publicable los casos o materiales aún no autorizados.
+- [ ] Activar/verificar recepción real solo cuando se autorice. No enviar ahora.
+- [ ] Subir estos avances locales cuando se indique; aún no hay commit/push de este trabajo.
+- [ ] Puntos 5 y 6 aplazados expresamente: operación y dominio/lanzamiento.
+
 - [x] Separar fuentes y materiales publicables en C:/Proyectos/LRM.
 - [x] Conservar diseño, cinco páginas y recursos optimizados; excluir datos, fotos y referencias pendientes de autorización del repositorio público.
 - [x] Demo pública noindex en subdominio de SC con formulario sin transporte y página 404.

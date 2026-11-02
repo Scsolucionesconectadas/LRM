@@ -64,7 +64,7 @@ async function createAssets(target, excludedImageKeys = new Set()) {
   await cp(join(projectRoot, 'shared/styles/home.css'), join(target, 'home.css'));
   await cp(join(projectRoot, 'shared/styles/company.css'), join(target, 'company.css'));
   await cp(join(projectRoot, 'apps/lmr/company.js'), join(target, 'company.js'));
-  for (const name of ['contact.js', 'contact-model.js', 'catalog-filter.js', 'insights.js']) await cp(join(projectRoot, 'apps/lmr', name), join(target, name));
+  for (const name of ['contact.js', 'contact-model.js', 'form-validation.js', 'catalog-filter.js', 'insights.js']) await cp(join(projectRoot, 'apps/lmr', name), join(target, name));
   await cp(join(projectRoot, 'shared/styles/contact.css'), join(target, 'contact.css'));
   await cp(join(projectRoot, 'apps/lmr/services.js'), join(target, 'services.js'));
   await cp(join(projectRoot, 'apps/lmr/projects.js'), join(target, 'projects.js'));

@@ -1,5 +1,13 @@
 # Bitácora de LMR
 
+## 2026-11-02 — Publicación de mejoras solicitada
+
+El usuario autoriza actualizar la demo pública con las mejoras locales. Preparación y verificación en [[15_Actualizacion_Demo_Publica]]; se conservan transporte vacío/noindex y documentos originales. No ampliar operación, plan o dominio final por esta tarea.
+
+## 2026-11-02 — Funcionalidad y calidad, puntos 1–4
+
+Implementación local descrita en [[14_Funcionalidad_y_Calidad]], conservando diseño/datos/documentos aprobados. 36 pruebas/check/build:demo correctos. 31 páginas/124 casos responsive y revisión axe-core conjunta sin infracciones automáticas detectadas; teclado, fallback sin JavaScript y errores de formulario comprobados. Transporte simulado/interceptado, sin correos/activaciones. Sin commit/push/DNS o desarrollo de operación/dominio. UI documentada en [[10_UI_UX_Diseno]].
+
 ## 2026-11-02 — Separación y conexión de publicación
 
 **Pedido:** subir LMR a Scsolucionesconectadas/LRM y vincular las modificaciones con su demo de Cloudflare.

@@ -1,5 +1,15 @@
 # Decisiones técnicas
 
+## 2026-11-02 — Preparación productiva hasta el punto 4
+
+**Decisión:** validación progresiva sobre HTML nativo, manejo de borradores en memoria y comprobaciones con transporte simulado. Conservar diseño, JSON/PDF y stack existentes; sin dependencias runtime nuevas.
+
+**Motivo:** corregir fallos reales y preparar funciones para producción, con operación y dominio aplazados por el usuario y sin autorización de envío real.
+
+**Impacto:** apps/lmr/contact.js, contact-model.js, form-validation.js; shared/styles/contact.css; scripts/build.mjs; tests/contact.test.mjs. Detalle/validaciones en [[14_Funcionalidad_y_Calidad]].
+
+**Alternativas:** incorporar una biblioteca de formularios o backend ahora; se mantiene la solución nativa por suficiencia y menor complejidad.
+
 ## 2026-11-02 — Repositorio y demo independientes
 
 **Decisión:** LMR pasa a C:/Proyectos/LRM y Scsolucionesconectadas/LRM, con Cloudflare Workers Static Assets. main será la rama de publicación de la demo.

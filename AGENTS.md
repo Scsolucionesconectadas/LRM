@@ -1,5 +1,9 @@
 # LMR: repositorio independiente
 
+- Publicación autorizada02/11/2026: el usuario pidió subir las mejoras locales a la demo pública; seguir docs/obsidian/15_Actualizacion_Demo_Publica.md y verificar commit/check/URL. Conserva prohibiciones de envío/activación/indexación y dominio final; no cambiar plan o DNS por esta actualización.
+
+- Alcance vigente02/11/2026: implementados localmente los puntos 1–4; leer docs/obsidian/14_Funcionalidad_y_Calidad.md. Puntos 5/6 diferidos; no se hizo push/deploy en esta sesión. 36 pruebas correctas. Mantener envío vacío en copias de revisión; npm run dev puede usar el endpoint fuente. No hacer envíos/activaciones ni tratar la aceptación simulada como recepción real.
+
 - Proyecto local de trabajo: C:/Proyectos/LRM. Remoto autorizado: https://github.com/Scsolucionesconectadas/LRM. La marca es LMR; conservar el nombre LRM del repositorio elegido por el usuario.
 - Leer docs/obsidian/00_Contexto_Proyecto.md y 05_Pendientes.md antes de cambios relevantes. Actualizar la documentación al finalizar.
 - Contenido en content/lmr/, interfaz y recursos en apps/lmr/, componentes comunes en shared/. No agregar i-Solution, panel administrador, presupuestos o fuentes privadas.

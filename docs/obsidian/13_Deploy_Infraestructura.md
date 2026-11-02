@@ -1,5 +1,9 @@
 # Publicación e infraestructura
 
+## 02/11/2026 — Actualización de mejoras autorizada
+
+Publicar [[14_Funcionalidad_y_Calidad]] mediante el flujo main → lmr-demo. Ver [[15_Actualizacion_Demo_Publica]] para el resultado vigente. Conservar endpoint vacío/noindex; no modificar dominios finales o servicio de correo.
+
 ## Demo pública — 02/11/2026
 
 - URL: https://lmr-demo.scsolucionesconectadas.com.ar/.
