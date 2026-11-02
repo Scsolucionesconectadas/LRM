@@ -12,7 +12,7 @@
 - X-Robots-Tag noindex/nofollow/noarchive, meta robots noindex y robots.txt Disallow: /. Cloudflare añade contenido administrado a robots.txt; conservar la directiva final y no exigir igualdad binaria de ese único archivo.
 - Las otras 81 respuestas verificadas coinciden con sus archivos locales; cinco páginas x tres anchos (390/768/1365) sin overflow, imágenes rotas ni errores JavaScript. Formulario disabled y endpoint vacío en la demo. No se realizaron envíos.
 
-## GitHub y publicación automática — en configuración
+## GitHub y publicación automática — verificada
 
 Repositorio https://github.com/Scsolucionesconectadas/LRM, main, raíz /.
 
@@ -20,4 +20,6 @@ Aplicación oficial Cloudflare Workers and Pages instalada con Only select repos
 
 Build: `npm run check && npm test && npm run build:demo`. Deploy: `npx --yes wrangler@4.156.1 deploy --config deploy/lmr-demo/wrangler.jsonc`. Cloudflare realiza instalación npm según lockfile. Node 22 fijado en .nvmrc.
 
-Falta registrar aquí la evidencia del primer commit/build remoto correcto antes de dar la integración por terminada.
+Primer commit subido: bc8ce28f751f623058f588b232d58d38ec2fd72e. Check GitHub Workers Builds: lmr-demo completed/success; build dd06484c-14f5-4e77-a755-713d02595ee0, duración aproximada58s, versión8367edaa lista. La URL personalizada responde200 con X-Robots-Tag noindex. La subida se hizo con la cuenta autorizada Scsolucionesconectadas y autenticación aislada; el primer intento desde otra cuenta recibió403 y no modificó el remoto.
+
+Validación posterior a Git: recursos200 y cabeceras correctas. Al comparar Windows con el build Linux, normalizar CRLF/LF en textos. La tarjeta PNG social se genera con fuentes del entorno; comprobar formato PNG1200x630, no imponer igualdad binaria entre sistemas operativos. Estos matices no representan archivos ausentes o una versión equivocada. Las notas finales se suben en un segundo commit para verificar otra activación del flujo.

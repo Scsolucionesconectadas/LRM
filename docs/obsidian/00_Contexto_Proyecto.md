@@ -6,7 +6,7 @@ Fecha: 02/11/2026, America/Buenos_Aires.
 
 Web institucional de ingeniería, obras eléctricas MT/BT, tableros y PLC, redes/fibra y servicios complementarios. Cinco páginas, diez servicios y seis referencias publicables. Separada de SOLUTION-GROUP por pedido del usuario y preparada para https://github.com/Scsolucionesconectadas/LRM.
 
-Fuente local vigente: C:/Proyectos/LRM. Demo ya publicada mediante carga manual en https://lmr-demo.scsolucionesconectadas.com.ar/. La conexión automática a main está en configuración; completar [[13_Deploy_Infraestructura]] con evidencia del primer despliegue Git antes de darla por verificada.
+Fuente local vigente: C:/Proyectos/LRM. Demo en https://lmr-demo.scsolucionesconectadas.com.ar/. Conexión automática main → Cloudflare comprobada: commit bc8ce28, check Workers Builds: lmr-demo success y versión8367edaa lista. [[13_Deploy_Infraestructura]] conserva evidencia y comandos. Git tiene helper local con sesión aislada de la cuenta Scsolucionesconectadas, sin cambiar la sesión global de otros proyectos.
 
 ## Stack
 

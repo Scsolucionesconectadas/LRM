@@ -32,7 +32,7 @@ La demo conserva la estética y navegación final, pero solicita no indexación 
 
 ## Actualizaciones en Cloudflare
 
-Se configura la integración oficial GitHub → Cloudflare Builds para la rama `main`:
+Integración oficial GitHub → Cloudflare Builds configurada y verificada para la rama `main`:
 
 - Compilación: `npm run check && npm test && npm run build:demo`.
 - Despliegue: `npx --yes wrangler@4.156.1 deploy --config deploy/lmr-demo/wrangler.jsonc`.

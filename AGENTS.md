@@ -4,7 +4,8 @@
 - Leer docs/obsidian/00_Contexto_Proyecto.md y 05_Pendientes.md antes de cambios relevantes. Actualizar la documentación al finalizar.
 - Contenido en content/lmr/, interfaz y recursos en apps/lmr/, componentes comunes en shared/. No agregar i-Solution, panel administrador, presupuestos o fuentes privadas.
 - Este repositorio es público. No versionar credenciales, .env.local, consultas del formulario, fotografías sin autorización, material marcado solo para revisión privada ni documentación comercial interna.
-- La demo pública es https://lmr-demo.scsolucionesconectadas.com.ar/. Worker lmr-demo, configuración deploy/lmr-demo/wrangler.jsonc. Se está conectando GitHub main con Cloudflare Builds; verificar evidencia antes de anunciar actualización automática.
+- La demo pública es https://lmr-demo.scsolucionesconectadas.com.ar/. Worker lmr-demo, configuración deploy/lmr-demo/wrangler.jsonc. GitHub main está conectado a Cloudflare Builds: bc8ce28 produjo un despliegue correcto el02/11/2026 (versión8367edaa). Cada push autorizado requiere comprobar el check remoto y URL, no solo el commit.
+- Git usa un helper local con configuración aislada de GitHub CLI fuera del repo. La cuenta autorizada es Scsolucionesconectadas; no reemplazar la cuenta/configuración global de otros proyectos ni copiar secretos a Git.
 - Build de demo: npm run build:demo. Salida exclusiva .qa/cloudflare/lmr-demo, raíz /, noindex, sin sitemap/canonical definitivo ni material previewOnly. El formulario no tiene transporte en esa copia; no enviar pruebas ni activaciones. Destino definitivo infolmr@solution.com.ar se conserva en la configuración fuente.
 - No activar producción/indexación/dominio del cliente ni enviar correos sin instrucción expresa. No prometer llegada a Recibidos.
 - Una modificación local no se publica hasta commit/push. El usuario autorizó la subida inicial y vinculación automática; para publicaciones posteriores respetar la instrucción vigente de cada tarea.
