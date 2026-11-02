@@ -1,8 +1,8 @@
 # Contexto de LMR
 
-## 02/11/2026 — Actualización pública autorizada
+## 02/11/2026 — Actualización pública verificada
 
-El usuario solicitó publicar las mejoras locales. [[15_Actualizacion_Demo_Publica]] registra alcance y verificación de esta publicación; tiene prioridad sobre el estado local histórico de [[14_Funcionalidad_y_Calidad]]. Correo apagado y noindex conservados; dominio final/operación ampliada pendientes.
+Mejoras publicadas en https://lmr-demo.scsolucionesconectadas.com.ar/: commitfbf4e78, check Cloudflare success y build1eb6699f-8ac4-4039-a9e4-a57d7b490ddd. [[15_Actualizacion_Demo_Publica]] registra evidencia y prevalece sobre el estado local histórico de14. Transporte vacío/noindex conservados; material, recepción real y puntos5/6 pendientes.
 
 ## 02/11/2026 — Funcionalidad y calidad locales
 

@@ -1,5 +1,9 @@
 # Publicación e infraestructura
 
+## 02/11/2026 — Mejoras publicadas y verificadas
+
+Commitfbf4e78, check Cloudflare completed/success, build1eb6699f-8ac4-4039-a9e4-a57d7b490ddd. 84 recursos públicos correctos y revisión conjunta de62 casos responsive. Evidencia en [[15_Actualizacion_Demo_Publica]]. Transporte vacío/noindex conservados; sin correos/activaciones o cambios de DNS/plan/dominio final. Documentación de cierre sincronizada mediante un commit posterior sin cambios funcionales.
+
 ## 02/11/2026 — Actualización de mejoras autorizada
 
 Publicar [[14_Funcionalidad_y_Calidad]] mediante el flujo main → lmr-demo. Ver [[15_Actualizacion_Demo_Publica]] para el resultado vigente. Conservar endpoint vacío/noindex; no modificar dominios finales o servicio de correo.
