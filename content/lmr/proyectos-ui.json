@@ -1,0 +1,9 @@
+{
+  "sectors": [
+    "Salud",
+    "Agua e infraestructura",
+    "Industria",
+    "Institucional"
+  ],
+  "sectorById": {}
+}

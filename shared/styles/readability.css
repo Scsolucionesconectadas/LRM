@@ -1,0 +1,52 @@
+/* Escala de lectura común. Se carga después de las capas históricas. */
+:root{--text-body:16px;--text-secondary:14px;--text-action:16px}
+body{font-size:var(--text-body);line-height:1.7}
+body,input,textarea,select,button{font-family:'Poppins',sans-serif}
+#contenido :is(p,li,input,textarea,select){font-size:var(--text-body);line-height:1.75}
+#contenido :is(a,button){font-size:var(--text-action)}
+#contenido :is(span,small,label,figcaption){font-size:var(--text-secondary);line-height:1.65}
+#contenido summary{font-size:var(--text-body)}
+#contenido :is(.project-sector,.project-work-label,.project-description,.project-state,.project-gallery figcaption,.service-category,.service-discover,.service-body-bottom>span,.index-group>p,.service-group-header>span){font-size:var(--text-secondary)}
+#contenido :is(.project-card h2,.project-card h3,.service-summary h3){font-size:23px;line-height:1.35;overflow-wrap:anywhere}
+#contenido :is(.project-gallery>summary,.service-shortcuts a,.services-index nav a,.service-advice .text-link){font-size:var(--text-secondary)}
+#contenido :is(.button,.project-filter button){min-height:48px}
+#contenido .button{padding:14px 20px;line-height:1.45;white-space:normal}
+#contenido .contact-item h3{font-size:16px}
+#contenido .service-body h4{font-size:16px;font-weight:600;line-height:1.5}
+#contenido .project-number{font-size:32px;color:#526f88}
+#contenido .process-grid>li>span{color:#526f88}
+#contenido .message-preview pre{font-size:15px;line-height:1.7;overflow-wrap:anywhere}
+.utility-bar{font-size:14px;line-height:1.6}
+.utility-bar .container>span{font-size:14px}
+.header-inner nav{font-size:15px;gap:22px}
+.header-inner nav a{font-size:15px;min-height:44px}
+.header-cta{font-size:14px;line-height:1.5;padding:13px 17px;gap:14px;min-height:48px}
+.breadcrumbs,.breadcrumbs a,.breadcrumbs span{font-size:14px}
+.footer-grid h2{font-size:16px}
+.footer-grid :is(p,a),.footer-bottom,.footer-brand p{font-size:14px;line-height:1.8}
+.site-footer .footer-grid .text-link{font-size:14px}
+.credits-inner,.credits-inner>span,.credits-inner>a{font-size:14px;line-height:1.6}
+.credits-inner{flex-wrap:wrap;padding-block:20px;gap:20px 28px}
+.carousel-arrow{width:44px;height:44px}
+.brand-carousel{padding-bottom:35px}
+@media(max-width:1100px){.header-inner{gap:16px}.header-inner nav{gap:17px}.header-cta{max-width:215px}}
+@media(max-width:760px){.header-inner nav a{font-size:16px}.utility-bar{font-size:14px}.utility-bar .container{gap:12px}.footer-grid{gap:30px}.credits-inner{gap:14px 20px}.credits-inner>span{flex-basis:100%;text-align:center}}
+@media(max-width:420px){#contenido .button{padding:13px 16px;gap:10px}.footer-bottom{flex-direction:column;align-items:flex-start}.credits-inner>a{font-size:14px}.project-filter{gap:9px}.project-filter button{padding:10px 12px}}
+@media(max-width:760px){.utility-bar .container>span:last-child{display:none}}
+
+/* Alineación de bloques y créditos secundarios, ajuste pedido el29/10. */
+.section-heading{align-items:start}.section-heading>h2,.section-heading>div>:first-child{margin-top:0}.section-heading>h2{margin-bottom:0}.company-story{align-items:start}.contact-band-inner{align-items:flex-start}
+.brand-carousel{padding-bottom:0}
+.agency-credits .credits-inner{min-height:48px;padding-block:10px;gap:12px 18px;justify-content:center}.agency-credits .credits-inner>span,.agency-credits .credits-inner>a{font-size:12px;line-height:1.4}.agency-credits .credits-inner>a{gap:7px}.agency-credits .credits-inner img{height:18px;max-width:35px;width:auto}.agency-credits .credits-inner>a:last-child img{height:17px;max-width:18px}.footer-bottom{padding-right:76px}
+@media(max-width:760px){.agency-credits .credits-inner{padding-block:10px;gap:9px 15px;min-height:48px}.agency-credits .credits-inner>span{flex-basis:auto;text-align:left}.agency-credits .credits-inner>span,.agency-credits .credits-inner>a{font-size:11px}.agency-credits .credits-inner img{height:16px;max-width:30px}.agency-credits .credits-inner>a:last-child img{height:15px;max-width:17px}}
+@media(max-width:420px){.agency-credits .credits-inner>span{flex-basis:100%;text-align:center}.footer-bottom{padding-right:62px}}
+.agency-credits .credits-inner>a{min-height:28px}
+.agency-credits .credits-inner>a>span{display:none}
+.agency-credits .credits-inner>span{flex-basis:auto;text-align:left}
+
+/* Pulido49: correo completo en el cierre móvil, conservando la firma discreta. */
+@media(max-width:760px){
+  .footer-grid>div:nth-child(2),.footer-grid>div:nth-child(3){grid-column:1/-1}
+  .footer-grid>div:nth-child(2) ul{display:flex;flex-wrap:wrap;gap:4px 24px}
+  .footer-grid>div:nth-child(3)>a[href^="mailto:"]{overflow-wrap:normal;white-space:nowrap;max-width:100%}
+}

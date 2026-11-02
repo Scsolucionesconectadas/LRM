@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hospital-privado",
+    "sector": "Salud",
+    "title": "Hospital Privado Rosario",
+    "work": "Instalación de un sistema BMS integral.",
+    "context": "Integración para la gestión de instalaciones del edificio.",
+    "reference": "La referencia institucional menciona a Ingeniero Pellegrinet S.A.",
+    "logo": "Ant-HPR.jpg",
+    "source": "Web oficial, Referencias; folleto institucional 2023, página 4."
+  },
+  {
+    "id": "baigorria",
+    "sector": "Agua e infraestructura",
+    "title": "Potabilizadora Baigorria · ASSA",
+    "work": "Automatización de la cisterna de la planta potabilizadora.",
+    "context": "Automatización aplicada a infraestructura de abastecimiento de agua.",
+    "reference": "La referencia institucional menciona a Ingeniero Pellegrinet S.A.",
+    "logo": "Ant-ASSA.jpg",
+    "source": "Web oficial, Referencias; folleto institucional 2023, página 4."
+  },
+  {
+    "id": "gamma",
+    "sector": "Salud",
+    "title": "Gamma S.A.",
+    "work": "Sistema de presurización para el área limpia de quirófano.",
+    "context": "Obra llave en mano, según la referencia institucional de LMR.",
+    "reference": "",
+    "logo": "Ant-Gamma.jpg",
+    "source": "Web oficial, Referencias; folleto institucional 2023, página 4."
+  },
+  {
+    "id": "reconquista",
+    "sector": "Agua e infraestructura",
+    "title": "ASSA · Reconquista",
+    "work": "Sistema hidroneumático antiariete.",
+    "context": "Integración de control para infraestructura de agua.",
+    "reference": "",
+    "logo": "Ant-ASSA.jpg",
+    "source": "Web oficial, Referencias; folleto institucional 2023, página 4."
+  },
+  {
+    "id": "carga-camiones",
+    "sector": "Industria",
+    "title": "Carga automatizada de camiones",
+    "work": "Automatización de carga con tecnología de medición Coriolis.",
+    "context": "Control de procesos y medición aplicado a operaciones de carga.",
+    "reference": "Proyecto incluido en el folleto institucional de LMR.",
+    "logo": null,
+    "source": "Folleto institucional 2023, página 4."
+  },
+  {
+    "id": "efluentes",
+    "sector": "Industria",
+    "title": "Tratamiento de efluentes cerveceros",
+    "work": "Automatización, instalación eléctrica y neumática.",
+    "context": "Solución llave en mano para tratamiento de efluentes, según el folleto institucional.",
+    "reference": "",
+    "logo": null,
+    "source": "Folleto institucional 2023, página 4."
+  }
+]

@@ -1,0 +1,96 @@
+/* Contacto: a clear entry point, useful direct channels and a readable form. */
+html{scroll-behavior:smooth;scroll-padding-top:125px}
+.contact-hero{position:relative;isolation:isolate;overflow:hidden;border-bottom:1px solid #d7e5f0;background:#f0f6fb}
+.contact-hero::before{content:'';position:absolute;z-index:-1;right:-190px;top:-290px;width:900px;height:900px;border:1px solid #ccdfed;border-radius:50%;box-shadow:0 0 0 78px #e6f0f84d,0 0 0 79px #d9e8f1;pointer-events:none}
+.contact-hero-inner{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:center;gap:70px;padding-block:64px 68px}
+#contenido .contact-eyebrow{color:var(--action);font-size:14px;font-weight:600;letter-spacing:.1em;margin:0 0 23px;text-transform:uppercase}
+.contact-hero h1{font-size:clamp(45px,4.8vw,66px);line-height:1.12;letter-spacing:-.045em;margin:0 0 25px}
+.contact-hero h1 strong{color:var(--action)}
+#contenido .contact-hero-intro{font-size:18px;line-height:1.8;color:var(--muted);max-width:630px;margin-bottom:30px}
+.contact-hero .button-row{gap:26px;align-items:center}
+.contact-direct{position:relative;overflow:hidden;padding:32px;border:1px solid #244d72;border-radius:12px;background:#102b47;color:#fff;box-shadow:0 18px 35px #123c6014}
+.contact-direct-heading{padding-bottom:20px}
+.contact-direct-line{display:block;width:38px;height:3px;background:#76bff0;margin-bottom:21px}
+.contact-direct h2{font-size:27px;line-height:1.3;letter-spacing:-.025em;margin:0 0 12px;color:#fff}
+#contenido .contact-direct-heading p{font-size:15px;line-height:1.7;color:#d5e6f5;margin:0}
+.contact-direct-link{display:flex;align-items:center;gap:15px;padding-block:20px;border-top:1px solid #5f84a24d;border-radius:4px;min-width:0}
+.contact-channel-icon{display:grid;place-items:center;flex:none;width:42px;height:42px;border:1px solid #a0c4df57;border-radius:8px;background:#ffffff0a;color:#a3d7f7}
+.contact-channel-icon svg{width:22px;height:22px}
+.contact-direct-link>span:nth-child(2){min-width:0;flex:1}
+#contenido .contact-channel-label{display:block;font-size:13px;color:#c3d9ea;line-height:1.6;margin-bottom:3px}
+#contenido .contact-direct-link strong{color:#fff;font-size:16px;font-weight:500;overflow-wrap:anywhere;line-height:1.5}
+.contact-direct-link>svg{width:18px;height:18px;color:#9eccec;transition:transform 180ms var(--ease-out)}
+.contact-direct-location{display:flex;align-items:center;gap:10px;padding-top:18px;border-top:1px solid #5f84a24d;min-height:48px}
+.contact-direct-location>svg{width:19px;height:19px;color:#a3d7f7}
+.contact-direct-location>svg:last-child{margin-left:auto}
+#contenido .contact-direct-location>span{font-size:14px;color:#d5e6f5}
+.contact-direct a:focus-visible{outline-color:#a8ddff}
+.contact-workspace{gap:70px;grid-template-columns:minmax(0,.85fr) minmax(0,1.2fr);padding-block:70px 80px;align-items:start}
+.contact-info{padding-top:0;min-width:0}
+.contact-info h2{font-size:32px;line-height:1.3;margin:0 0 18px}
+#contenido .contact-info-intro{color:var(--muted);font-size:16px;line-height:1.8;margin:0 0 26px}
+.contact-info .contact-item{padding-top:21px;margin-top:21px}
+.contact-info .contact-item h3{font-size:15px;font-weight:500;letter-spacing:0;margin-bottom:9px}
+.contact-info .contact-item>a:not(.text-link){min-height:40px;font-size:16px}
+.contact-location{scroll-margin-top:126px;padding-top:24px;margin-top:22px;border-top:1px solid var(--line)}
+.contact-location-heading{display:flex;align-items:center;gap:10px;margin-bottom:12px;color:var(--action)}
+.contact-location-heading>svg{width:21px;height:21px}
+.contact-location-heading h3{margin:0;font-size:17px;letter-spacing:0}
+#contenido .contact-location>p{font-size:16px;line-height:1.8;margin-bottom:18px}
+.contact-map{display:block;width:100%;height:270px;border:1px solid #c5d8e8;border-radius:9px;background:#e9f0f6;margin-bottom:18px}
+.contact-form-panel{min-width:0;background:#fff;padding:32px 34px;border:1px solid #c8dce9;border-radius:12px;box-shadow:0 10px 35px #102b4709;scroll-margin-top:125px}
+#contenido .contact-form-kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 12px}
+.contact-form-panel>h2{font-size:29px;line-height:1.3;margin-bottom:15px}
+#contenido .contact-form-panel>p:not(.contact-form-kicker){font-size:16px;line-height:1.75;color:var(--muted);margin:0 0 16px}
+.contact-form-panel .form-grid{gap:18px;grid-template-columns:repeat(2,minmax(0,1fr))}
+#contenido .contact-form-panel label{font-size:15px;font-weight:500;line-height:1.6;margin-top:19px}
+#contenido .contact-form-panel label>span{font-size:12px;font-weight:400}
+#contenido .contact-form-panel :is(input,select,textarea){font-size:16px;min-height:48px;padding:12px;border-radius:5px;border-color:#afc8da;line-height:1.6}
+.contact-form-panel textarea{min-height:150px;max-height:600px}
+#contenido .contact-form-panel #message-help{font-size:13px;line-height:1.75}
+#contenido .contact-form-panel .form-privacy{font-size:13px;line-height:1.75;margin:20px 0;color:var(--muted)}
+.contact-submit{gap:15px;min-width:190px}
+#contenido .contact-submit [data-submit-label]{font-size:16px;font-weight:600;line-height:1.45}
+.contact-submit:disabled{cursor:not-allowed;box-shadow:none;transform:none;background:#53718c;border-color:#53718c;color:#fff;opacity:1}
+.contact-submit:disabled::before{display:none}
+.contact-submit:disabled>svg{transform:none}
+.contact-form-panel [aria-busy=true] .contact-submit:disabled{background:var(--action);border-color:var(--action);cursor:progress}
+.contact-form-panel [aria-busy=true] .contact-submit>svg{animation:contact-submit-pulse 900ms ease-in-out infinite alternate}
+#contenido .contact-form-status{margin:20px 0 0;padding:16px 18px;background:#f1f6fb;color:#35546e;font-size:15px;line-height:1.75;border:1px solid #c4d7e8;border-left:3px solid #729cbf;border-radius:6px}
+.contact-form-status:focus-visible{outline:2px solid var(--brand);outline-offset:4px}
+#contenido [data-state=success] .contact-form-status{background:#edf8f2;border-color:#a5d3bb;border-left-color:#28734e;color:#205d3f}
+#contenido [data-state=error] .contact-form-status{background:#fff4f1;border-color:#e3b6aa;border-left-color:#a44632;color:#833622}
+.contact-honeypot{display:none}
+#contenido .contact-form-panel .contact-test-note{font-size:14px;line-height:1.7;padding:12px 15px;background:#fff7e5;border:1px solid #e9d3a1;border-left:3px solid #b4862f;border-radius:5px;color:#73521d}
+.contact-faq{background:#f2f7fb;border-top:1px solid #d9e7f1;padding-block:65px 75px}
+.contact-faq-inner{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.2fr);gap:70px;align-items:start}
+.contact-faq-heading h2{font-size:36px;line-height:1.25;margin-bottom:23px}
+#contenido .contact-faq-heading>p:not(.contact-eyebrow){color:var(--muted);font-size:16px;line-height:1.8;margin-bottom:24px}
+.contact-faq-list{border-top:1px solid #c7dbe9;min-width:0}
+.contact-faq-list details{border-bottom:1px solid #c7dbe9}
+.contact-faq-list summary{display:flex;align-items:center;justify-content:space-between;gap:24px;list-style:none;padding:23px 0;color:var(--ink);font-size:17px;font-weight:500;line-height:1.55;cursor:pointer;border-radius:3px}
+.contact-faq-list summary::-webkit-details-marker{display:none}
+#contenido .contact-faq-list summary>span{display:grid;place-items:center;width:28px;height:28px;flex:none;font-size:24px;line-height:1;font-weight:400;color:var(--action);transition:transform 180ms var(--ease-out)}
+.contact-faq-list details[open] summary>span{transform:rotate(45deg)}
+.contact-faq-list details[open] summary{color:var(--action)}
+#contenido .contact-faq-list details>div>p{font-size:16px;line-height:1.85;color:var(--muted);padding:0 40px 24px 0;margin:0}
+@keyframes contact-submit-pulse{to{opacity:.35;transform:translateX(3px)}}
+@media(hover:hover) and (pointer:fine){.contact-direct-link:hover{background:#ffffff08;color:#fff}.contact-direct-link:hover>svg{transform:translateX(4px)}.contact-direct-location:hover{color:#fff}.contact-faq-list summary:hover{color:var(--action)}}
+@media(max-width:1100px){.contact-hero-inner{gap:35px;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}.contact-direct{padding:26px}.contact-direct-link{gap:11px}#contenido .contact-direct-link strong{font-size:15px}.contact-direct-link>svg{display:none}.contact-workspace,.contact-faq-inner{gap:40px;grid-template-columns:minmax(0,.85fr) minmax(0,1.2fr)}.contact-form-panel{padding:28px}.contact-hero h1{font-size:clamp(43px,4.6vw,57px)}.contact-hero .button-row{gap:18px}.contact-channel-icon{width:36px;height:36px}}
+@media(max-width:900px){.contact-workspace,.contact-faq-inner{gap:32px;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.contact-form-panel .form-grid{grid-template-columns:1fr;gap:0}.contact-form-panel{padding:26px}.contact-hero-inner{grid-template-columns:1fr;gap:35px;padding-block:44px}.contact-direct{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:0 25px}.contact-direct-heading{grid-column:1/-1;padding-bottom:14px}.contact-direct-line{margin-bottom:15px}.contact-direct-location{grid-column:1/-1}.contact-hero-intro{max-width:720px}}
+@media(max-width:760px){html{scroll-padding-top:100px}.contact-hero-inner{gap:28px;padding-block:35px 38px}.contact-hero h1{font-size:clamp(39px,7.8vw,54px);line-height:1.15;margin-bottom:22px}#contenido .contact-hero-intro{font-size:17px;line-height:1.8}.contact-hero .button-row{gap:20px;flex-wrap:wrap}.contact-direct{display:block;padding:26px}.contact-direct h2{font-size:25px}#contenido .contact-direct-link strong{font-size:16px}.contact-direct-link>svg{display:block}.contact-channel-icon{width:40px;height:40px}.contact-workspace{display:flex;flex-direction:column;gap:38px;padding-block:40px 48px}.contact-info,.contact-form-panel{width:100%}.contact-info h2{font-size:29px}.contact-form-panel{order:-1;padding:26px 24px;scroll-margin-top:104px}.contact-location{scroll-margin-top:104px}.contact-form-panel>h2{font-size:27px}.contact-map{height:270px}.contact-faq{padding-block:42px 50px}.contact-faq-inner{grid-template-columns:minmax(0,1fr);gap:28px}.contact-faq-heading h2{font-size:31px}.contact-faq-list summary{font-size:17px;padding-block:21px;gap:15px}#contenido .contact-faq-list details>div>p{padding-right:0}.contact-submit{width:100%}#contenido .contact-eyebrow{font-size:13px;margin-bottom:18px}}
+@media(max-width:360px){.contact-direct{padding:22px}.contact-direct-link{gap:10px}.contact-direct-link>svg{display:none}.contact-channel-icon{width:34px;height:34px}.contact-form-panel{padding-inline:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.contact-direct-link>svg,.contact-faq-list summary>span{transition:none}.contact-direct-link:hover>svg{transform:none}.contact-form-panel [aria-busy=true] .contact-submit>svg{animation:none}}
+
+/* Pulido49: consulta primero en móvil y canal directo sin repetir el hero completo. */
+#contenido .contact-form-panel .form-privacy{font-size:14px}
+@media(max-width:760px){
+  .contact-form-panel{order:-1}
+  .contact-direct .contact-direct-heading,.contact-direct>a[href^="mailto:"],.contact-direct .contact-direct-location{display:none}
+  .contact-direct{padding:12px 20px}
+  .contact-direct .contact-direct-link{border:0;padding-block:8px;min-height:64px}
+  .contact-hero-inner{gap:25px}
+  .contact-workspace{gap:34px}
+  .contact-info .contact-item{margin-top:16px;padding-top:16px}
+  .contact-info .contact-item>a:not(.text-link){min-height:44px}
+}

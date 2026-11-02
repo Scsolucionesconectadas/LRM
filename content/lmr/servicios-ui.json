@@ -1,0 +1,304 @@
+{
+  "groups": [
+    {
+      "id": "obras-electricas",
+      "title": "Obras eléctricas",
+      "description": "Media y baja tensión, distribución e infraestructura.",
+      "services": [
+        "media-tension",
+        "baja-tension",
+        "electromecanica"
+      ]
+    },
+    {
+      "id": "automatizacion-control",
+      "title": "Automatización y control",
+      "description": "Tableros, PLC e integración de procesos.",
+      "services": [
+        "automatizacion"
+      ]
+    },
+    {
+      "id": "ingenieria-documentacion",
+      "title": "Ingeniería y documentación",
+      "description": "La definición técnica que acompaña cada etapa de la obra.",
+      "services": [
+        "ingenieria",
+        "puesta-a-tierra",
+        "licitaciones",
+        "asistencia"
+      ]
+    },
+    {
+      "id": "redes-seguridad",
+      "title": "Redes y seguridad",
+      "description": "Conectividad, comunicaciones e integración de sistemas.",
+      "services": [
+        "redes-y-fibra",
+        "seguridad"
+      ]
+    }
+  ],
+  "media": {
+    "media-tension": {
+      "image": "hero",
+      "alt": "Equipamiento de celdas de media tensión"
+    },
+    "baja-tension": {
+      "image": "electricidad",
+      "alt": "Trabajo en tableros eléctricos"
+    },
+    "electromecanica": {
+      "image": "empresa",
+      "alt": "Instalaciones e infraestructura industrial"
+    },
+    "automatizacion": {
+      "diagram": "control"
+    },
+    "ingenieria": {
+      "diagram": "plans"
+    },
+    "puesta-a-tierra": {
+      "diagram": "ground"
+    },
+    "licitaciones": {
+      "diagram": "estimate"
+    },
+    "asistencia": {
+      "diagram": "documents"
+    },
+    "redes-y-fibra": {
+      "image": "redes",
+      "alt": "Racks y cableado industrial"
+    },
+    "seguridad": {
+      "image": "seguridad",
+      "alt": "Equipamiento de videovigilancia y seguridad",
+      "gallery": [
+        {
+          "image": "acceso",
+          "label": "Control de acceso"
+        },
+        {
+          "image": "incendios",
+          "label": "Detección de incendios"
+        }
+      ]
+    }
+  },
+  "faq": [
+    {
+      "question": "¿Pueden trabajar a partir de planos o pliegos existentes?",
+      "answer": "Revisamos proyectos, planos, pliegos y documentación técnica para analizar necesidades, interferencias y alcances. Esa revisión permite definir la ingeniería, el cómputo o las tareas de obra que correspondan contratar."
+    },
+    {
+      "question": "¿Realizan la ingeniería y también la instalación?",
+      "answer": "Brindamos ingeniería y documentación técnica, además de trabajos de provisión, montaje y ejecución. Esas prestaciones se diferencian y se definen en la propuesta de cada proyecto; no todos los trabajos incluyen las mismas etapas."
+    },
+    {
+      "question": "¿Qué documentación puede incluir el trabajo?",
+      "answer": "Según el alcance contratado, puede comprender planos ejecutivos o conforme a obra, esquemas de tableros, memorias, cálculos, especificaciones e informes de mediciones y verificaciones."
+    },
+    {
+      "question": "¿Qué información conviene compartir para iniciar una consulta?",
+      "answer": "El tipo y la ubicación de la obra, las tareas que necesitás resolver y los planos o pliegos disponibles ayudan a definir la necesidad. Podés describirlo en la consulta y coordinar luego el intercambio de documentación con LMR."
+    }
+  ],
+  "cards": [
+    {
+      "id": "media-tension",
+      "artIndex": 0,
+      "title": "Media tensión y distribución eléctrica",
+      "summary": "Ingeniería, celdas y cableado para la distribución de energía en obras de media tensión.",
+      "description": "Desarrollamos **ingeniería e instalamos celdas y cableado** para obras de media tensión. Coordinamos el equipamiento MT/BT y los requisitos técnicos de cada proyecto.",
+      "highlights": [
+        "Ingeniería y documentación de instalaciones de media tensión.",
+        "Instalación de celdas y tendido de cables MT/BT.",
+        "Revisión de equipamiento y requisitos de distribuidoras."
+      ],
+      "consult": "Consultar por media tensión",
+      "artFrame": [
+        40,
+        0,
+        500,
+        278
+      ]
+    },
+    {
+      "id": "baja-tension",
+      "artIndex": 1,
+      "title": "Baja tensión y tableros eléctricos",
+      "summary": "Instalaciones, distribución de energía y tableros para alimentar, proteger y comandar los equipos de tu obra.",
+      "description": "Integramos **instalaciones de baja tensión y tableros eléctricos**, desde la distribución de energía hasta el comando y la protección de equipos.",
+      "highlights": [
+        "Tableros generales, seccionales y de fuerza motriz.",
+        "Iluminación, tomacorrientes, canalizaciones y conductores.",
+        "Montaje, conexionado y puesta en servicio según contratación."
+      ],
+      "consult": "Consultar por baja tensión",
+      "artFrame": [
+        583,
+        0,
+        527,
+        281
+      ]
+    },
+    {
+      "id": "automatizacion",
+      "artIndex": 2,
+      "title": "Automatización y PLC",
+      "summary": "Tableros de control, programación de PLC e integración de señales para automatizar instalaciones y procesos.",
+      "description": "Desarrollamos **tableros de automatización con controladores lógicos programables (PLC)**. Integramos sensores y actuadores para el comando de instalaciones y procesos.",
+      "highlights": [
+        "Ingeniería de comando, control y conexionado.",
+        "Programación de PLC e integración de supervisión (SCADA) y gestión de edificios (BMS).",
+        "Sensores, actuadores e instrumentación de procesos."
+      ],
+      "consult": "Consultar por automatización",
+      "artFrame": [
+        36,
+        280,
+        498,
+        246
+      ],
+      "relatedProjects": [
+        "baigorria",
+        "efluentes"
+      ]
+    },
+    {
+      "id": "ingenieria",
+      "artIndex": 3,
+      "title": "Ingeniería y desarrollo de proyectos",
+      "summary": "Relevamiento, cálculos y planos para definir una base técnica clara antes de ejecutar la obra.",
+      "description": "Transformamos las necesidades de tu proyecto en **planos, cálculos y documentación ejecutiva**. Revisamos las especialidades para coordinar instalaciones y anticipar interferencias.",
+      "highlights": [
+        "Planos eléctricos, esquemas y arquitectura de tableros.",
+        "Memorias de cálculo y especificaciones técnicas.",
+        "Revisión de proyectos y compatibilización de documentación."
+      ],
+      "consult": "Consultar por ingeniería",
+      "artFrame": [
+        599,
+        280,
+        506,
+        263
+      ]
+    },
+    {
+      "id": "puesta-a-tierra",
+      "artIndex": 4,
+      "title": "Puesta a tierra y pararrayos",
+      "summary": "Diseño y documentación de sistemas de puesta a tierra, equipotencialidad y protección contra descargas atmosféricas.",
+      "description": "Diseñamos **sistemas y mallas de puesta a tierra** y protección contra descargas atmosféricas, considerando los parámetros y las condiciones del proyecto.",
+      "highlights": [
+        "Cálculos de puesta a tierra y equipotencialidad.",
+        "Evaluación de tensiones de paso y contacto.",
+        "Diseño de pararrayos y documentación constructiva."
+      ],
+      "consult": "Consultar por puesta a tierra",
+      "artFrame": [
+        70,
+        525,
+        448,
+        270
+      ]
+    },
+    {
+      "id": "licitaciones",
+      "artIndex": 5,
+      "title": "Cómputos, presupuestos y licitaciones",
+      "summary": "Análisis de planos, cantidades y costos para definir alcances y preparar ofertas de obras públicas y privadas.",
+      "description": "Preparamos **cómputos y documentación técnico-económica** para cotizar obras. Analizamos pliegos, alternativas y provisiones para precisar qué comprende cada propuesta.",
+      "highlights": [
+        "Cómputos de materiales, equipos y mano de obra.",
+        "Análisis de pliegos y comparación de proveedores.",
+        "Ofertas con tareas, provisiones y exclusiones definidas."
+      ],
+      "consult": "Consultar por licitaciones",
+      "artFrame": [
+        599,
+        545,
+        494,
+        256
+      ]
+    },
+    {
+      "id": "redes-y-fibra",
+      "artIndex": 6,
+      "title": "Redes de datos y fibra óptica",
+      "summary": "Diseño, instalación y certificación de cableado estructurado y fibra óptica, con mediciones e informes.",
+      "description": "Integramos **redes de cobre y fibra óptica**, desde el tendido y la organización del rack hasta las mediciones y la documentación de resultados.",
+      "highlights": [
+        "Cableado estructurado, racks y puestos de datos.",
+        "Tendido, fusión y terminación de fibra óptica.",
+        "Certificación, atenuación y OTDR cuando corresponde."
+      ],
+      "consult": "Consultar por redes y fibra",
+      "artFrame": [
+        71,
+        797,
+        430,
+        275
+      ],
+      "relatedProjects": []
+    },
+    {
+      "id": "seguridad",
+      "artIndex": 7,
+      "title": "Seguridad electrónica y comunicaciones",
+      "summary": "Detección de incendios, control de acceso, videovigilancia y comunicaciones integradas a la infraestructura de tu obra.",
+      "description": "Integramos **sistemas de seguridad electrónica y comunicaciones** con las instalaciones eléctricas, según las prestaciones y el equipamiento definidos para cada obra.",
+      "highlights": [
+        "Detección y alarma de incendios y audioevacuación.",
+        "Control de acceso, CCTV y sistemas de alarma.",
+        "Comunicaciones, canalizaciones y alimentación de sistemas."
+      ],
+      "consult": "Consultar por seguridad",
+      "artFrame": [
+        580,
+        827,
+        520,
+        250
+      ]
+    },
+    {
+      "id": "electromecanica",
+      "artIndex": 8,
+      "title": "Infraestructura electromecánica",
+      "summary": "Instalaciones eléctricas para bombas, motores, climatización y respaldo, coordinadas con las demás especialidades de la obra.",
+      "description": "Resolvemos la **infraestructura eléctrica asociada a equipos electromecánicos**, coordinando alimentación, comando y sistemas auxiliares con las otras especialidades de obra.",
+      "highlights": [
+        "Alimentación y comando de bombas y motores.",
+        "Infraestructura eléctrica para climatización y VRF.",
+        "Alimentación de equipos auxiliares, UPS y respaldo."
+      ],
+      "consult": "Consultar por infraestructura",
+      "artFrame": [
+        12,
+        1075,
+        550,
+        315
+      ]
+    },
+    {
+      "id": "asistencia",
+      "artIndex": 9,
+      "title": "Documentación y asistencia a obras",
+      "summary": "Apoyo técnico a constructoras, contratistas y comitentes para revisar documentación y acompañar las tareas contratadas.",
+      "description": "Acompañamos el trabajo con **documentación técnica y asistencia a obra**. Revisamos planos y equipos y realizamos las verificaciones comprendidas en la contratación.",
+      "highlights": [
+        "Planos ejecutivos, conforme a obra y memorias.",
+        "Revisión de materiales, equipos y documentación.",
+        "Asistencia técnica, verificaciones y ensayos contratados."
+      ],
+      "consult": "Consultar por asistencia",
+      "artFrame": [
+        603,
+        1080,
+        497,
+        315
+      ]
+    }
+  ]
+}

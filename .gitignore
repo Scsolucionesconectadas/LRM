@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.qa/
+.wrangler/
+.playwright-mcp/
+.env
+.env.*
+!.env.example
+*.log
+privado/
+relevamiento/
+*.pdf
+__pycache__/

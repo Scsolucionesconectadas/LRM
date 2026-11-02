@@ -1,0 +1,82 @@
+{
+  "name": "LMR",
+  "logoName": "LMR Solution S.R.L.",
+  "email": "infolmr@solution.com.ar",
+  "contactEndpoint": "https://formsubmit.co/ajax/infolmr@solution.com.ar",
+  "phones": [
+    "+54 341 6938211",
+    "+54 341 3911866",
+    "+54 341 6636400"
+  ],
+  "whatsapp": "5493416938211",
+  "address": {
+    "street": "Castellanos 317",
+    "city": "Rosario",
+    "region": "Santa Fe",
+    "postalCode": "2000",
+    "country": "AR"
+  },
+  "intro": "Ingeniería, instalaciones eléctricas y automatización para obras industriales, comerciales, institucionales y de infraestructura.",
+  "pages": [
+    {
+      "slug": "",
+      "label": "Inicio"
+    },
+    {
+      "slug": "empresa/",
+      "label": "Empresa"
+    },
+    {
+      "slug": "servicios/",
+      "label": "Servicios"
+    },
+    {
+      "slug": "referencias/",
+      "label": "Proyectos"
+    },
+    {
+      "slug": "contacto/",
+      "label": "Contacto"
+    }
+  ],
+  "brands": [
+    {
+      "name": "Siemens",
+      "image": "MAR-Siemens.jpg"
+    },
+    {
+      "name": "Allen-Bradley",
+      "image": "MAR-Allen.jpg"
+    },
+    {
+      "name": "Dahua",
+      "image": "MAR-Dauha.jpg"
+    },
+    {
+      "name": "DSC",
+      "image": "MAR-DSC.jpg"
+    },
+    {
+      "name": "Simplex",
+      "image": "MAR-Simplex.jpg"
+    },
+    {
+      "name": "Commax",
+      "image": "MAR-Commax.jpg"
+    }
+  ],
+  "credits": [
+    {
+      "name": "SC Soluciones Conectadas",
+      "label": "Soluciones Conectadas",
+      "image": "agency-sc",
+      "url": "https://scsolucionesconectadas.com.ar/"
+    },
+    {
+      "name": "Cl!ck Soluciones Digitales",
+      "label": "Cl!ck",
+      "image": "agency-click",
+      "url": "https://clicksolucionesdigital.com/"
+    }
+  ]
+}

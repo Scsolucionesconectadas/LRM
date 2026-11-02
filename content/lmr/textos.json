@@ -1,0 +1,372 @@
+{
+  "pages": {
+    "inicio": {
+      "title": "Obras eléctricas de media y baja tensión en Rosario | LMR",
+      "description": "Ingeniería y obras eléctricas en Rosario. Instalación de celdas de media tensión, tableros de baja tensión, automatización PLC, redes y fibra óptica."
+    },
+    "empresa/": {
+      "title": "Empresa LMR | Ingeniería eléctrica y automatización en Rosario",
+      "description": "Conocé LMR: ingeniería, instalaciones eléctricas de media y baja tensión, tableros y automatización con PLC para obras y proyectos."
+    },
+    "servicios/": {
+      "title": "Servicios eléctricos, tableros, PLC y fibra óptica | LMR",
+      "description": "Ingeniería y ejecución de obras MT/BT, instalación de celdas, tableros eléctricos, automatización PLC, puesta a tierra y certificación de enlaces de datos."
+    },
+    "referencias/": {
+      "title": "Proyectos de ingeniería, automatización e instalaciones | LMR",
+      "description": "Proyectos de LMR en salud, agua e industria: BMS, automatización de cisternas, presurización, sistemas antiariete y control de procesos."
+    },
+    "contacto/": {
+      "title": "Contacto para obras eléctricas e ingeniería en Rosario | LMR",
+      "description": "Consultá a LMR por ingeniería, obras eléctricas y automatización. Castellanos 317, Rosario. Contacto por teléfono, correo y WhatsApp."
+    }
+  },
+  "common": {
+    "location": "Rosario, Argentina",
+    "tagline": "Ingeniería · Obras eléctricas · Automatización",
+    "skip": "Saltar al contenido",
+    "navigation": "Navegación principal",
+    "menu": "Menú",
+    "mainCta": "Consultar un proyecto",
+    "servicesCta": "Conocé nuestras áreas de trabajo",
+    "projectsCta": "Ver todos los proyectos",
+    "contactTitle": "Hablemos de tu próxima obra.",
+    "contactText": "Contanos sobre tu proyecto de **instalaciones eléctricas o automatización**. Compartí su ubicación y las tareas que necesitás.",
+    "brandsTitle": "Marcas con las que trabajamos",
+    "brandsText": "Tecnología que integramos a cada proyecto.",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "position": "{start} a {end} de {total}",
+    "footerTagline": "Ingeniería que se proyecta.\nSoluciones que se construyen.",
+    "footerNav": "Explorá LMR",
+    "contact": "Contacto",
+    "footerProject": "Tu próxima obra",
+    "footerProjectText": "Ingeniería y ejecución, con el alcance técnico que necesitás.",
+    "footerContact": "Iniciar una consulta",
+    "credits": "Diseño y desarrollo",
+    "backTop": "Volver arriba",
+    "copyright": "LMR",
+    "country": "Argentina"
+  },
+  "home": {
+    "title": "Obras eléctricas en **media y baja tensión.**",
+    "intro": "Desarrollamos **ingeniería eléctrica** e instalamos celdas de media tensión, tableros y **automatización con PLC**. Sumamos redes de datos y fibra óptica a los proyectos que lo requieren.",
+    "primaryCta": "Consultar un proyecto",
+    "secondaryCta": "Conocer los servicios",
+    "note": "Obras industriales, comerciales y de infraestructura.",
+    "heroAlt": "Celdas eléctricas en una instalación industrial",
+    "heroLinks": [
+      {
+        "tag": "MT",
+        "label": "Celdas y distribución",
+        "service": "media-tension"
+      },
+      {
+        "tag": "BT",
+        "label": "Instalaciones y tableros",
+        "service": "baja-tension"
+      },
+      {
+        "tag": "PLC",
+        "label": "Automatización y control",
+        "service": "automatizacion"
+      }
+    ],
+    "disciplines": [
+      "Ingeniería eléctrica",
+      "Montaje e instalaciones",
+      "Automatización y control",
+      "Redes y comunicaciones"
+    ],
+    "servicesTitle": "La ingeniería que tu obra necesita.\nLa capacidad para ejecutarla.",
+    "servicesIntro": "Ingeniería, celdas de media tensión, tableros y PLC. **Documentación técnica e instalación** con las tareas definidas para cada proyecto.",
+    "workAlt": "Técnico trabajando en una instalación de tableros eléctricos",
+    "workTitle": "Del plano a la instalación.",
+    "workText": "Coordinamos **ingeniería y trabajo en obra** para integrar energía, control y comunicaciones.",
+    "networkTitle": "Conectamos **energía, datos y procesos.**",
+    "networkIntro": "Integramos instalaciones eléctricas, automatización y comunicaciones. En redes y fibra óptica, sumamos **instalación, medición y certificación de enlaces**, con informes técnicos.",
+    "networkCta": "Explorar redes y fibra óptica",
+    "integrationLabel": "Integración de especialidades de LMR",
+    "hub": "LMR",
+    "hubDetail": "Integración",
+    "nodes": [
+      {
+        "id": "energy",
+        "title": "Energía",
+        "detail": "Media y baja tensión",
+        "target": "media-tension",
+        "icon": "power"
+      },
+      {
+        "id": "control",
+        "title": "Control",
+        "detail": "Tableros y PLC",
+        "target": "automatizacion",
+        "icon": "control"
+      },
+      {
+        "id": "data",
+        "title": "Conectividad",
+        "detail": "Redes y fibra óptica",
+        "target": "redes-y-fibra",
+        "icon": "network"
+      }
+    ],
+    "projectsTitle": "Ingeniería aplicada.\nExperiencia en cada instalación.",
+    "projectsIntro": "Conocé trabajos de **instalaciones, automatización y redes** en salud, agua e industria, y proyectos en ejecución.",
+    "disciplinesLabel": "Áreas de trabajo de LMR",
+    "disciplineCta": "Explorar área",
+    "disciplineCards": [
+      {
+        "title": "Ingeniería eléctrica",
+        "text": "Planificación y documentación para tu obra.",
+        "target": "ingenieria",
+        "icon": "plans"
+      },
+      {
+        "title": "Montaje e instalaciones",
+        "text": "Media y baja tensión, celdas y tableros.",
+        "target": "baja-tension",
+        "icon": "power"
+      },
+      {
+        "title": "Automatización y control",
+        "text": "Tableros, PLC e integración de señales.",
+        "target": "automatizacion",
+        "icon": "control"
+      },
+      {
+        "title": "Redes y comunicaciones",
+        "text": "Cableado, fibra óptica y enlaces de datos.",
+        "target": "redes-y-fibra",
+        "icon": "network"
+      }
+    ]
+  },
+  "company": {
+    "title": "Somos LMR.\n**Ingeniería que se hace**\n**en equipo.**",
+    "intro": "Ingeniería eléctrica, instalaciones y automatización para cada proyecto.",
+    "identityTitle": "Criterio técnico.\nTrabajo en obra.",
+    "identityText": "Somos una empresa de **ingeniería y obra**. Integramos instalaciones eléctricas y automatización para resolver las necesidades técnicas de cada proyecto.",
+    "identityDetail": "Trabajamos en **media y baja tensión**: ingeniería eléctrica, instalación de celdas, tendido de cables, tableros de potencia y **tableros de automatización con PLC**.",
+    "heroDetail": "Trabajamos junto a **constructoras, contratistas y comitentes** para coordinar las especialidades y ejecutar el alcance acordado en cada proyecto.",
+    "secondaryCta": "Conocer nuestros servicios",
+    "imageAlt": "Equipamiento e instalaciones en una planta industrial",
+    "processTitle": "Una forma de\ntrabajar compartida.",
+    "processIntro": "Desde la definición técnica hasta el trabajo en obra, coordinamos las especialidades y acordamos las entregas según cada contratación.",
+    "method": [
+      {
+        "title": "Alcance definido",
+        "text": "Revisamos **necesidades, planos y condiciones de obra** para definir prioridades.",
+        "detail": "Precisamos la **ingeniería, las provisiones y las tareas** incluidas en cada propuesta."
+      },
+      {
+        "title": "Especialidades coordinadas",
+        "text": "Integramos **energía, control y comunicaciones** según las necesidades de la obra.",
+        "detail": "Coordinamos el equipamiento y la **ejecución contratada**, junto a las partes que intervienen en el proyecto."
+      },
+      {
+        "title": "Documentación técnica",
+        "text": "Preparamos **registros, verificaciones y documentación de obra**.",
+        "detail": "El contenido y las entregas se definen según el **alcance de cada contratación**."
+      }
+    ],
+    "teamTitle": "Personas detrás\nde la empresa.",
+    "teamIntro": "Referentes para acompañar la definición técnica y el trabajo en obra.",
+    "experienceTitle": "Experiencia en\nsalud, agua e industria.",
+    "experienceText": "La experiencia de LMR incluye **control de instalaciones en salud, automatización para agua e infraestructura y procesos industriales**. Estas referencias muestran trabajos concretos de nuestro equipo.",
+    "experienceCta": "Ver todos los proyectos",
+    "closeTitle": "Conversemos sobre\ntu próxima obra.",
+    "closeText": "Contanos qué necesita tu proyecto y definamos juntos su alcance.",
+    "closeCta": "Contactar a LMR",
+    "identityContext": "Desarrollamos proyectos y ejecutamos instalaciones para obras **industriales, comerciales, institucionales y de infraestructura**.",
+    "identityComplement": "Sumamos **redes de datos, fibra óptica y sistemas de control** para coordinar las especialidades que requiere una instalación.",
+    "participationTitle": "Cómo nos integramos\na tu obra.",
+    "participationText": "Definimos qué **ingeniería y documentación** se requieren, qué equipos o materiales se incluyen y qué tareas de montaje, conexionado y puesta en servicio corresponden a cada contratación.",
+    "objectivesTitle": "Calidad de servicio.\nMejora continua.",
+    "objectivesText": "Nuestro objetivo es brindar un **servicio atento a las necesidades de cada obra** y mejorar continuamente nuestros procesos de trabajo.",
+    "objectivesTeam": "Promovemos el **desarrollo profesional del equipo** para acompañar los desafíos técnicos de los proyectos.",
+    "experienceCases": [
+      {
+        "projectId": "hospital-privado",
+        "label": "Salud",
+        "illustration": "health"
+      },
+      {
+        "projectId": "baigorria",
+        "label": "Agua e infraestructura",
+        "illustration": "water"
+      },
+      {
+        "projectId": "efluentes",
+        "label": "Industria",
+        "illustration": "industry"
+      }
+    ],
+    "experienceCaseCta": "Ver proyecto",
+    "contactWhatsapp": "WhatsApp de",
+    "contactEmail": "Escribir a"
+  },
+  "services": {
+    "title": "Ingeniería y **obras eléctricas.**",
+    "intro": "De las instalaciones de **media y baja tensión** al control con **PLC** y las redes de datos. Conocé nuestras especialidades y conversemos sobre lo que necesita tu obra.",
+    "index": "Elegí un área de trabajo",
+    "indexLabel": "Índice de servicios",
+    "shortcuts": [
+      [
+        "media-tension",
+        "Media tensión"
+      ],
+      [
+        "baja-tension",
+        "Tableros BT"
+      ],
+      [
+        "automatizacion",
+        "PLC"
+      ]
+    ],
+    "advice": "¿Por dónde empezar?",
+    "adviceCta": "Consultar un proyecto",
+    "area": "área",
+    "areas": "áreas",
+    "expand": "Ver servicio",
+    "collapse": "Ocultar detalle",
+    "includes": "En qué podemos ayudarte",
+    "scope": "Las tareas incluidas se acuerdan para cada contratación.",
+    "consult": "Consultar esta especialidad",
+    "scopeTitle": "Cada obra,\n**un alcance definido.**",
+    "scopeText": "Desde la documentación hasta la instalación: **las tareas y provisiones se acuerdan para cada proyecto**.",
+    "standards": "Se consideran, según la especialidad y el alcance, reglamentaciones AEA, normas IRAM e IEC, requisitos de las distribuidoras eléctricas y especificaciones particulares aplicables.",
+    "verificationTitle": "El trabajo también se mide.",
+    "verificationText": "Verificamos enlaces de cobre según su categoría y clase. En fibra óptica, medimos **atenuación y, cuando corresponde, reflectometría OTDR**, con informes de resultados.",
+    "verificationCta": "Ver redes y fibra óptica",
+    "faqTitle": "Preguntas antes de empezar.",
+    "faqIntro": "Información para definir el primer paso de tu proyecto.",
+    "closeTitle": "¿Tenés planos, un pliego\no una obra por iniciar?",
+    "closeText": "Compartí la necesidad de tu proyecto y definamos el **alcance técnico del trabajo**.",
+    "galleryLabel": "Sistemas de seguridad y comunicaciones",
+    "eyebrow": "Servicios LMR",
+    "catalogTitle": "Elegí una especialidad.",
+    "countLabel": "especialidades",
+    "singleLabel": "especialidad",
+    "filterLabel": "Filtrar servicios por área de trabajo",
+    "all": "Todas",
+    "closeSheet": "Cerrar ficha del servicio",
+    "returnToCatalog": "Seguir explorando servicios",
+    "guidanceTitle": "¿Tu obra integra\n**varias especialidades?**",
+    "guidanceText": "Coordinamos **energía, control y comunicaciones** para definir los trabajos que necesita tu proyecto, desde la ingeniería hasta la ejecución.",
+    "guidanceCta": "Conversemos sobre tu obra",
+    "relatedProjects": "Proyectos relacionados"
+  },
+  "projects": {
+    "title": "Ingeniería aplicada.\n**Proyectos reales.**",
+    "intro": "**Automatización, instalaciones y redes** para salud, agua, industria e infraestructura.",
+    "filterLabel": "Filtrar proyectos por sector",
+    "filters": [
+      "Todos",
+      "Salud",
+      "Agua e infraestructura",
+      "Industria",
+      "Redes y comunicaciones"
+    ],
+    "status": "{count} proyectos en {sector}.",
+    "allSectors": "todos los sectores",
+    "workLabel": "Trabajo realizado",
+    "consult": "Consultar una obra similar",
+    "electricalTitle": "Tu próxima obra eléctrica\npuede empezar acá.",
+    "electricalText": "**Media y baja tensión, celdas, tableros y PLC.** Contanos el desafío y el alcance que necesitás.",
+    "electricalCta": "Conocer los servicios eléctricos",
+    "inProgress": "Proyecto en ejecución",
+    "inProgressLabel": "Alcance en ejecución",
+    "galleryCta": "Ver fotos del avance",
+    "openPhoto": "Abrir fotografía",
+    "progressCta": "Ver avance del proyecto",
+    "introCta": "Consultar un proyecto",
+    "catalogLabel": "Referencias de proyectos de LMR",
+    "all": "Todos",
+    "referenceSingle": "referencia",
+    "referencePlural": "referencias",
+    "detailCta": "Ver avance y fotografías",
+    "galleryLabel": "Fotografías del proyecto",
+    "previousPhoto": "Fotografía anterior",
+    "nextPhoto": "Fotografía siguiente",
+    "choosePhoto": "Ver fotografía",
+    "photoCounter": "{current} de {total}",
+    "closeSheet": "Cerrar ficha del proyecto",
+    "returnToProjects": "Volver a los proyectos",
+    "closeTitle": "Tu próxima obra,\n**con alcance definido.**",
+    "closeText": "**Media y baja tensión, celdas, tableros y PLC.** Conversemos sobre la ingeniería y los trabajos que necesita tu proyecto.",
+    "heroLabel": "Proyectos LMR",
+    "exploreCta": "Explorar los proyectos"
+  },
+  "contact": {
+    "eyebrow": "Contacto LMR",
+    "title": "Hablemos de\n**tu próxima obra.**",
+    "intro": "Una instalación nueva, una ampliación o una necesidad de automatización. Contanos **qué necesitás resolver** y empecemos por ahí.",
+    "heroCta": "Escribir mi consulta",
+    "locationCta": "Ver ubicación",
+    "directTitle": "El primer paso es\nconversar.",
+    "directText": "Elegí cómo ponerte en contacto con nuestro equipo.",
+    "workspaceLabel": "Consulta y datos de contacto",
+    "infoTitle": "Estamos en Rosario.\nConversemos.",
+    "infoIntro": "Encontrá nuestros datos de contacto y la ubicación de LMR.",
+    "emailLabel": "Escribinos",
+    "phoneLabel": "Llamanos",
+    "addressLabel": "Encontranos",
+    "mapTitle": "Ubicación de LMR: Castellanos 317, Rosario",
+    "mapCta": "Abrir en Google Maps",
+    "formLabel": "Tu consulta",
+    "formTitle": "Contanos qué necesitás",
+    "formIntro": "Completá tus datos y una **breve descripción de la consulta**. Podés escribirnos aunque todavía estés definiendo el proyecto.",
+    "nojs": "Para usar el formulario activá JavaScript. También podés escribirnos a",
+    "name": "Nombre",
+    "company": "Empresa (opcional)",
+    "email": "Correo",
+    "phone": "Teléfono (opcional)",
+    "required": "obligatorio",
+    "service": "¿En qué podemos ayudarte?",
+    "serviceDefault": "Orientación inicial",
+    "otherService": "Otras consultas",
+    "message": "Contanos sobre tu consulta",
+    "help": "Incluí el tipo de instalación, su ubicación y las tareas que necesitás. Entre 10 y 1800 caracteres.",
+    "privacy": "Usaremos tus datos de contacto para responder a esta consulta.",
+    "submit": "Enviar consulta",
+    "sending": "Enviando consulta…",
+    "success": "¡Listo! Tu consulta fue enviada. Gracias por escribirnos. Te responderemos al correo que indicaste.",
+    "unavailable": "El envío desde la web aún no está habilitado. Por el momento, contactanos por correo o WhatsApp mediante los enlaces de esta página.",
+    "failure": "No pudimos enviar tu consulta. Los datos siguen en el formulario. Podés volver a intentarlo o contactarnos por los otros canales.",
+    "uncertain": "No pudimos confirmar el envío. Los datos siguen en el formulario. Revisá tu conexión antes de volver a intentarlo.",
+    "rateLimit": "Se alcanzó el límite de envíos. Esperá unos minutos antes de volver a intentarlo o usá nuestros otros canales de contacto.",
+    "invalidName": "Ingresá tu nombre.",
+    "invalidMessage": "Escribí al menos 10 caracteres sobre tu consulta.",
+    "projectTemplate": "Quisiera consultar por un proyecto similar a {project}.",
+    "subject": "Consulta web · LMR",
+    "faqLabel": "Antes de escribirnos",
+    "faqTitle": "Un punto de partida\npara tu proyecto.",
+    "faqIntro": "Información útil para **preparar tu consulta** y compartir los datos de tu proyecto.",
+    "servicesCta": "Conocer nuestras áreas de trabajo",
+    "faq": [
+      {
+        "question": "¿Puedo consultar si todavía no tengo definido el proyecto?",
+        "answer": "Sí. Contanos qué necesitás resolver, dónde se realizaría el trabajo y en qué etapa estás. Podés iniciar la conversación aunque el alcance todavía esté abierto."
+      },
+      {
+        "question": "¿Qué información conviene incluir?",
+        "answer": "El tipo de instalación, su ubicación, las especialidades involucradas y las tareas previstas. Si tenés planos o un pliego, podés mencionarlos para coordinar cómo compartir esa documentación."
+      },
+      {
+        "question": "¿Por qué servicios puedo consultar?",
+        "answer": "Por **ingeniería y obras eléctricas en media y baja tensión**, celdas, tableros y automatización con PLC. También por redes de datos, fibra óptica, cableado estructurado y sistemas de control y seguridad."
+      },
+      {
+        "question": "¿Puedo consultar por una obra nueva o una licitación?",
+        "answer": "Podés contarnos el estado del proyecto y la documentación disponible. La ingeniería, las provisiones y los trabajos a realizar se definen según el alcance de cada contratación."
+      },
+      {
+        "question": "¿Y si mi consulta no encaja en un servicio?",
+        "answer": "Elegí **Otras consultas** en el formulario y explicanos brevemente el motivo. También tenés disponibles el correo y los teléfonos de LMR."
+      }
+    ]
+  }
+}

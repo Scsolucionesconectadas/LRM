@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ingenieria", "short": "Ingeniería de proyectos", "title": "Ingeniería y desarrollo de proyectos", "category": "Ingeniería", "summary": "Del relevamiento a la documentación ejecutiva: una base técnica clara para construir, coordinar y ejecutar tu proyecto.",
+    "details": [
+      "Desarrollo de ingeniería eléctrica para obras industriales, comerciales, institucionales y de infraestructura.",
+      "Planos de instalaciones eléctricas y corrientes débiles: iluminación, tomacorrientes, fuerza motriz, canalizaciones y tendidos de conductores.",
+      "Esquemas unifilares y multifilares; diagramas de comando, control y fuerza; planos de tableros generales, seccionales, de distribución y automatización.",
+      "Arquitectura de tableros, disposición de componentes y conexionado.",
+      "Ingeniería de automatización con PLC, diagramas de entradas y salidas (I/O) y documentación de control.",
+      "Cálculo y diseño de puesta a tierra, mallas y evaluación de tensiones de paso y contacto, según el proyecto; protección contra descargas atmosféricas y pararrayos.",
+      "Planos topográficos y documentación gráfica vinculados con instalaciones e infraestructura.",
+      "Especificaciones técnicas, memorias descriptivas, memorias de cálculo y documentación ejecutiva.",
+      "Revisión de proyectos existentes, análisis de interferencias y compatibilización de documentación técnica."
+    ]
+  },
+  {
+    "id": "baja-tension", "short": "Baja tensión y tableros", "title": "Instalaciones eléctricas y tableros de baja tensión", "category": "Obras eléctricas", "summary": "Distribución de energía, tableros y alimentación de equipos. Ingeniería, montaje y puesta en servicio según el alcance de cada obra.",
+    "details": [
+      "Instalaciones de baja tensión, distribución de energía y alimentación de equipos específicos.",
+      "Tableros generales de baja tensión (TGBT), seccionales, de distribución, fuerza motriz, comando, protección y automatización.",
+      "Centros de control de motores (CCM), tableros compartimentados, de transferencia automática y de corrección del factor de potencia.",
+      "Iluminación normal y de emergencia; circuitos de tomacorrientes.",
+      "Dimensionamiento de conductores, canalizaciones, bandejas portacables y protecciones eléctricas.",
+      "Sistemas de puesta a tierra y equipotencialidad.",
+      "Alimentación y comando de bombas, motores y otros equipos electromecánicos.",
+      "Montaje, cableado de baja tensión, conexionado, identificación, ensayos y puesta en servicio, según el alcance contratado."
+    ]
+  },
+  {
+    "id": "media-tension", "short": "Media tensión", "title": "Media tensión y distribución eléctrica", "category": "Obras eléctricas", "summary": "Ingeniería, instalación de celdas de media tensión y tendido de cables MT/BT, con los alcances de provisión y ejecución definidos para cada contratación.",
+    "details": [
+      "Ingeniería y documentación técnica para instalaciones de media tensión.",
+      "Instalación de celdas de media tensión y tendido de cables de media y baja tensión, según el proyecto y la contratación.",
+      "Análisis de pliegos y especificaciones de celdas; evaluación de características y selección de equipamiento.",
+      "Revisión de documentación de fabricantes y ofertas de proveedores.",
+      "Análisis de requisitos de distribuidoras eléctricas y reglamentaciones aplicables.",
+      "Puesta a tierra para subestaciones, centros de transformación y recintos eléctricos.",
+      "Coordinación técnica de equipamiento de media tensión y baja tensión."
+    ]
+  },
+  {
+    "id": "automatizacion", "short": "Automatización y PLC", "title": "Automatización, comando y control", "category": "Automatización", "summary": "Tableros de automatización con PLC e integración de señales, sensores y actuadores para el control de instalaciones y procesos.",
+    "details": [
+      "Ingeniería de tableros de comando y automatización; sistemas de control basados en PLC.",
+      "Diagramas de fuerza, comando y señalización; esquemas eléctricos de control y conexionado.",
+      "Integración de sensores, actuadores y señales de campo.",
+      "Comando y protección de motores y bombas; automatización de instalaciones y procesos.",
+      "Alimentación eléctrica y coordinación de sistemas auxiliares de control.",
+      "Programación de PLC Siemens, Schneider y Allen-Bradley; desarrollo e integración de sistemas SCADA y BMS.",
+      "Ingeniería básica y de detalle de instrumentación, buses de campo, especificaciones y descripciones funcionales de procesos.",
+      "Servicios de instrumentación, puesta a punto y calibración de instrumentos de proceso: caudal, presión, temperatura y análisis de líquidos, según la necesidad y el alcance del trabajo."
+    ]
+  },
+  {
+    "id": "puesta-a-tierra", "short": "Puesta a tierra y pararrayos", "title": "Puesta a tierra y protección contra descargas atmosféricas", "category": "Ingeniería", "summary": "Diseño y documentación de sistemas de puesta a tierra, equipotencialidad y protección contra descargas atmosféricas.",
+    "details": [
+      "Cálculo y diseño de sistemas y mallas de puesta a tierra.",
+      "Evaluación de resistividad del terreno y parámetros eléctricos según los datos disponibles y el alcance del proyecto.",
+      "Análisis de tensiones de paso y contacto.",
+      "Diseño de protección contra descargas atmosféricas: captación, bajadas y puesta a tierra de pararrayos.",
+      "Equipotencialidad y coordinación con las protecciones de las instalaciones.",
+      "Planos, detalles constructivos, memorias de cálculo y especificaciones técnicas."
+    ]
+  },
+  {
+    "id": "licitaciones", "short": "Cómputos y licitaciones", "title": "Cómputos, presupuestos y licitaciones", "category": "Ingeniería", "summary": "Documentación y análisis técnico-económico para definir alcances, comparar alternativas y preparar ofertas de obras públicas y privadas.",
+    "details": [
+      "Cómputos métricos de materiales, equipos y mano de obra; planillas de cómputo y presupuesto.",
+      "Análisis de pliegos licitatorios, especificaciones y documentación contractual.",
+      "Estudio de planos para determinar alcances de obra y necesidades de provisión.",
+      "Planillas de cotización y ofertas técnico-económicas.",
+      "Solicitud, comparación y evaluación técnica y económica de cotizaciones de proveedores.",
+      "Análisis de alternativas de materiales, equipamiento y soluciones constructivas.",
+      "Identificación de tareas incluidas, exclusiones, provisiones y trabajos complementarios.",
+      "Asistencia técnica en licitaciones y contrataciones públicas y privadas; revisión de presupuestos y modificaciones de alcance."
+    ]
+  },
+  {
+    "id": "redes-y-fibra", "short": "Redes y fibra óptica", "title": "Redes de datos, fibra óptica y cableado estructurado", "category": "Redes y seguridad", "summary": "Ingeniería, instalación y certificación de enlaces de cobre y fibra óptica, con mediciones e informes de resultados.",
+    "details": [
+      "Diseño, desarrollo de ingeniería e instalación de redes de datos y cableado estructurado.",
+      "Tendido, instalación, terminación y conexionado de enlaces de fibra óptica.",
+      "Fusión de fibras ópticas y montaje de cajas de empalme, distribuidores y paneles de conexión, según el alcance del proyecto.",
+      "Comprobación y medición de enlaces de fibra óptica mediante instrumental específico.",
+      "Certificación de enlaces de fibra óptica mediante mediciones de atenuación y, cuando corresponda, reflectometría (OTDR).",
+      "Instalación, conexionado y organización de racks, gabinetes, patch panels y distribuidores de comunicaciones.",
+      "Cableado de datos y telefonía, conexión UTP/RJ45 y configuración de centrales telefónicas, según el alcance contratado.",
+      "Instalación, identificación y certificación de puestos de datos y enlaces de cableado estructurado.",
+      "Verificación del desempeño de enlaces de cobre mediante equipos certificadores, de acuerdo con la categoría y clase especificadas.",
+      "Elaboración de informes y documentación de resultados de las mediciones y certificaciones realizadas."
+    ]
+  },
+  {
+    "id": "seguridad", "short": "Seguridad y comunicaciones", "title": "Corrientes débiles, comunicaciones y seguridad electrónica", "category": "Redes y seguridad", "summary": "Integración de detección de incendios, control de acceso, videovigilancia y comunicaciones con la infraestructura eléctrica de la obra.",
+    "details": [
+      "Detección y alarma de incendios: sistemas convencionales e inteligentes, audioevacuación y detección temprana por aspiración.",
+      "Detección por fibra óptica, llama, gases, haz lineal, tecnología óptica OSID y sensores lineales de temperatura; cableado FPLR y LSZH según especificación.",
+      "Control de acceso y asistencia: lectores de proximidad, códigos y biometría; reconocimiento facial, huella e iris; cerraduras electromagnéticas y apertura de puertas.",
+      "Videovigilancia (CCTV) analógica HD y digital IP, sistemas XVR/NVR, domos y visualización remota; lectura de patentes y funciones de análisis de imagen según el equipamiento.",
+      "Alarmas, pulsadores de pánico, sensores volumétricos, barreras y protección perimetral; integración con CCTV y control de acceso.",
+      "Audio, buscapersonas, porteros eléctricos, videoporteros y comunicación interna.",
+      "Canalizaciones, cableado y alimentación para seguridad y comunicaciones.",
+      "Integración y coordinación de corrientes débiles con las instalaciones eléctricas."
+    ]
+  },
+  {
+    "id": "electromecanica", "short": "Infraestructura electromecánica", "title": "Infraestructura y sistemas electromecánicos", "category": "Obras eléctricas", "summary": "Instalaciones eléctricas para bombeo, motores, climatización y sistemas de respaldo, coordinadas con las especialidades de obra.",
+    "details": [
+      "Instalaciones eléctricas asociadas a sistemas de bombeo y abastecimiento de agua.",
+      "Alimentación y comando de bombas y motores; tableros de fuerza motriz y control.",
+      "Infraestructura eléctrica para climatización y sistemas VRF.",
+      "Alimentación de equipos auxiliares, UPS y sistemas de respaldo eléctrico.",
+      "Coordinación de instalaciones eléctricas con otras especialidades de obra."
+    ]
+  },
+  {
+    "id": "asistencia", "short": "Documentación y asistencia", "title": "Documentación técnica y asistencia a obras", "category": "Ingeniería", "summary": "Acompañamiento técnico a constructoras, contratistas y comitentes, desde la documentación hasta las verificaciones contratadas.",
+    "details": [
+      "Elaboración y revisión de planos ejecutivos y documentación conforme a obra, según el alcance contratado.",
+      "Memorias descriptivas, cálculos y especificaciones técnicas.",
+      "Análisis de documentación y detección de inconsistencias.",
+      "Revisión de materiales, equipos y fichas técnicas.",
+      "Documentación para licitaciones, cotizaciones y contratación.",
+      "Asistencia técnica a constructoras, contratistas y comitentes.",
+      "Verificaciones, ensayos y puesta en servicio de las instalaciones comprendidas en cada contratación."
+    ]
+  }
+]
